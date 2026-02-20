@@ -1,7 +1,14 @@
-*{
-    background-color: antiquewhite;
-}
+/* *{
+    background-color:antiquewhite;
+} */
 h1{
-    color: blueviolet;
+    color: rgb(196, 31, 102);
 }
 img{width: 200px;}
+.lab{
+    color: teal;
+}
+ol li{
+    background-color: pink;
+}
+.services{ background-color: rgb(5, 5, 42);}
