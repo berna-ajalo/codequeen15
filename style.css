@@ -1,7 +1,7 @@
 /* *{
     background-color:antiquewhite;
 } */
-h1{
+/* h1{
     color: rgb(196, 31, 102);
 }
 img{width: 200px;}
@@ -11,4 +11,175 @@ img{width: 200px;}
 ol li{
     background-color: pink;
 }
-.services{ background-color: rgb(5, 5, 42);}
+.services{ background-color: rgb(5, 5, 42);} */
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+img {
+  border-radius: 50%;
+  height: 300px;
+}
+/* General page setup */
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Hero Section (header) */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e0e0e; /* dark background */
+  color: white;
+  padding: 60px 80px;
+}
+
+/* Left text section */
+.hero-content {
+  max-width: 55%;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.hero-content h3 {
+  font-size: 20px;
+  color: #aaa;
+  margin: 10px 0 20px 0;
+  font-weight: normal;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Right image section */
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* My Philosophy section */
+.philosophy {
+  background-color: #f9b9d2;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.philosophy h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.philosophy p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 17px;
+}
+
+.philosophy-image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive view for phones */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+  }
+}
+/* Footer styling */
+footer {
+  background-color: #201919; /* red background */
+  color: white; /* white text */
+  text-align: center; /* center everything */
+  padding: 40px 20px; /* space inside the footer */
+  font-family: Arial, sans-serif;
+}
+
+/* Footer heading */
+footer h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Layout for the footer info boxes */
+.footer-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* so it adjusts on small screens */
+  gap: 40px; /* space between sections */
+  margin-bottom: 20px;
+}
+
+/* Each info block (socials, email, phone) */
+.footer-info div {
+  text-align: left;
+}
+
+/* Small headers inside the footer (Socials, Email, Phone) */
+.footer-info h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* Text inside the info blocks */
+.footer-info p {
+  margin: 5px 0;
+}
+
+/* Social icons (Font Awesome) */
+.socials {
+  margin-top: 20px;
+}
+
+/* Icon styles */
+.socials a {
+  color: white;
+  font-size: 22px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Icon hover effect */
+.socials a:hover {
+  color: #222; /* darkens when hovered */
+}
+
+/* Back to top link */
+.back-to-top {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* Back to top link styling */
+.back-to-top a {
+  color: white;
+  text-decoration: underline;
+}
