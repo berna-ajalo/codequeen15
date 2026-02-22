@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0e0e0e; /* dark background */
+  background-color: #100724; /* dark background */
   color: white;
   padding: 60px 80px;
 }
@@ -73,16 +73,17 @@ body {
 .philosophy {
   background-color: #f9b9d2;
   text-align: center;
-  padding: 60px 40px;
+  padding:40px 20px;
 }
 
 .philosophy h2 {
   font-size: 28px;
   margin-bottom: 20px;
+  color: z;
 }
 
 .philosophy p {
-  max-width: 800px;
+  max-width:800px;
   margin: 0 auto 40px;
   font-size: 17px;
 }
@@ -113,10 +114,25 @@ body {
     height: 180px;
   }
 }
+/* What I Do Section */
+.what-i-do {
+   background-color: #f9b9d2;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.what-i-do h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #161414;
+}
+
+
+
 /* Footer styling */
 footer {
-  background-color: #201919; /* red background */
-  color: white; /* white text */
+  background-color: #100724;
+  color: rgb(209, 207, 207); /* grey text */
   text-align: center; /* center everything */
   padding: 40px 20px; /* space inside the footer */
   font-family: Arial, sans-serif;
@@ -161,7 +177,7 @@ footer h2 {
 
 /* Icon styles */
 .socials a {
-  color: white;
+  color: rgb(209, 205, 205);
   font-size: 22px;
   margin: 0 10px;
   text-decoration: none;
@@ -180,6 +196,6 @@ footer h2 {
 
 /* Back to top link styling */
 .back-to-top a {
-  color: white;
+  color: rgb(223, 219, 219);
   text-decoration: underline;
 }
