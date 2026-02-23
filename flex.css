@@ -1,0 +1,11 @@
+/* flexbox properties */
+.container{
+    background-color: teal;
+}
+.child{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    /* gap: 40px; */
+    justify-content: space-between;
+}
